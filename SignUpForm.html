@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Sign Up Sheet</h1>
+    </header>
+    <form class=signupsheet>
+      <div class=inputfields>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username">
+      </div>
+      <div>
+        <label for="password">Password:</label>
+        <input type="text" id="password" name="password">
+      </div>
+      <div>
+        <label for="githubuser">Github Username:</label>
+        <input type="text" id="githubuser" name="githubuser">
+      </div>
+      <div class=inputbox>
+        <p>Select your desired plan:</p>
+        <div>
+          <input type="radio" id="enterprise" name="plan" value="enterprise">
+          <label for= "enterprise">Enterprise</label>
+        </div>
+        <div>
+          <input type="radio" id="pro" name="plan" value="pro">
+          <label for= "pro">Pro</label>
+        </div>
+        <div>
+          <input type="radio" id="free" name="plan" value="free">
+          <label for= "free">Free</label>
+        </div>
+      </div>
+      <div class=remebermebox>
+        <input type="checkbox" id="rememberme" name="rememberme">
+        <label for="rememberme">Remember Me</label>
+      </div>
+    </form>
+  </body>
+</html>
